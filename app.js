@@ -21,3 +21,12 @@ const shopUgradesArray = [
 
 ];
 
+//dom
+const buttonincrease= document.getElementById("increase");
+const pcookiesowned= document.getElementById("cookies-owned");
+const pcookiegains= document.getElementById("cookie-gains");
+const buttonreset= document.getElementById("reset");
+const divupgradeshop= document.getElementById("upgradeshop");
+
+//retrieve and display upgrades from the API
+

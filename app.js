@@ -13,12 +13,7 @@ let gameData={
 
 //add upgrades to the array, do it with upgrads from our API
 const shopUgradesArray = [
-    {upgradeOne:"Muffins"},
-    {upgradeTwo:"Donoughts"},
-    {upgradeThree:"Cheesecake"},
-    {upgradeFour:"Cherry Pie"},
-    {upgradeFive:"Super Mega Chip"}
-
+ 
 ];
 
 //dom
@@ -88,5 +83,12 @@ divupgradeshop.addEventListener("click", handleClick);
 
 
 function handleUpgradeClick() {
-    
+    if upgrade ==5;
+    console.log("You have received an upgrade!")
+
 }
+
+setinterval (function() {
+
+
+}, 1000)

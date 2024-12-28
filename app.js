@@ -66,24 +66,25 @@ async function provideShopUpgrades() {
 
     renderShopUpgrades();
 
-const pcookiesowned= document.getElementById("cookies-owned");
+pcookiesowned= document.getElementById("cookies-owned");
 pcookies.addEventListener("click", handleClick);
 
 
-const pcookiegains= document.getElementById("cookie-gains");
+pcookiegains= document.getElementById("cookie-gains");
 pcookiegains.addEventListener("click", handleClick);
 
 
-const buttonreset= document.getElementById("reset");
+buttonreset= document.getElementById("reset");
 buttonreset.addEventListener("click", handleClick);
 
 
-const divupgradeshop= document.getElementById("upgradeshop");
+divupgradeshop= document.getElementById("upgradeshop");
 divupgradeshop.addEventListener("click", handleClick);
 
 
 function handleUpgradeClick() {
-    if upgrade ==5;
+    let upgrade = 5;
+    let cookieaccess
     console.log("You have received an upgrade!")
 
 }
